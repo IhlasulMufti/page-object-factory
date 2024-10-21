@@ -40,6 +40,10 @@ public class LoginTest {
     public void testValidLogin(){
         loginPage.loginUser("Admin", "admin123");
         Assert.assertEquals(loginPage.getTxtDashboard(), "Dashboard");
+        Assert.assertEquals(
+                driver.getCurrentUrl(),
+                "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+        );
     }
 
     // negative test
@@ -47,6 +51,10 @@ public class LoginTest {
     public void testInvalidLogin(){
         loginPage.loginUser("Invalid", "invalid");
         Assert.assertEquals(loginPage.getTxtInvalid(), "Invalid credentials");
+        Assert.assertEquals(
+                driver.getCurrentUrl(),
+                "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+        );
     }
 
 }
