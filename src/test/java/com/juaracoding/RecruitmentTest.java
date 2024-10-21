@@ -43,5 +43,6 @@ public class RecruitmentTest {
         // step validation:
         Assert.assertEquals(recruitmentPage.getTxtApplicationStage(), "Application Stage");
         Assert.assertEquals(recruitmentPage.getTxtFirstValidation(), "Juara Coding");
+        Assert.assertTrue(driver.getCurrentUrl().contains("/recruitment/addCandidate"));
     }
 }

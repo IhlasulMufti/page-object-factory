@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="410869e1-268a-43a4-9d61-c33c33e9b0c3" name="Changes" comment="Day 17 - Page Object Page Factor (Recruitment Page Test: OrangeHRM Case)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="410869e1-268a-43a4-9d61-c33c33e9b0c3" name="Changes" comment="Day 18 - Trying add more validation using driver.getCurrentUrl() in LoginTest.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,13 +110,22 @@
       <option name="project" value="LOCAL" />
       <updated>1729354476013</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day 18 - Trying add more validation using driver.getCurrentUrl() in LoginTest.java">
+      <option name="closed" value="true" />
+      <created>1729524970707</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729524970707</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 17 - Make Page Object Page Factory QA" />
     <MESSAGE value="Day 17 - Page Object Page Factor (Login Page Test: HRMOrange Case)" />
     <MESSAGE value="Day 17 - Page Object Page Factor (Recruitment Page Test: OrangeHRM Case)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 17 - Page Object Page Factor (Recruitment Page Test: OrangeHRM Case)" />
+    <MESSAGE value="Day 18 - Trying add more validation using driver.getCurrentUrl() in LoginTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 18 - Trying add more validation using driver.getCurrentUrl() in LoginTest.java" />
   </component>
 </project>
